@@ -1,0 +1,8 @@
+capacitor.config.ts	Configuración nativa: appId: cl.futbolarcade.deluxe, nombre de la app, splash screen, color de fondo y ajustes del WebView.
+scripts/build-apk.sh	Script automatizado para macOS/Linux: verifica requisitos, instala Capacitor, compila y genera la APK con un solo comando.
+scripts/build-apk.bat	El mismo script automatizado para Windows.
+.github/workflows/build-apk.yml	Compila la APK en la nube de GitHub — no necesitas Android Studio ni Java en tu PC.
+public/manifest.webmanifest	Manifest PWA (pantalla completa, orientación landscape) para generar APK vía PWABuilder/Bubblewrap.
+public/icon-512.png	Ícono del launcher generado (balón estilo arcade con colores chilenos).
+APK_BUILD_GUIDE.md	Guía completa paso a paso en español con 3 métodos + solución de errores comunes.
+.gitignore	Excluye artefactos de Gradle, keystores y carpetas de build.
